@@ -68,6 +68,11 @@ a:hover {
   text-align: left;
 }
 
+
+
+
+
+
 .pro {
   text-decoration: underline;
 }
@@ -137,4 +142,9 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.col{
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
 }

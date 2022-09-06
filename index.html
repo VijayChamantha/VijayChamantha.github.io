@@ -12,9 +12,10 @@
 <body>
   <div class="top-container">
     <div class="navbar">
-      <h3>About</h3>
-      <h3>Skills</h3>
+      <h3><a href="#middle">About</a></h3>
+      <h3><a href="#skill">Skills</a></h3>
       <h3>Work</h3>
+      <h3><a href="#contact">Contact</a></h3>
     </div>
     <img class="top-cloud" src="images/cloud.png" alt="cloud">
     <div class="title-text">
@@ -25,7 +26,7 @@
     <img class="mountain" src="images/mountain.png" alt="mountain-img">
   </div>
 
-  <div class="middle-container">
+  <div class="middle-container" id="middle">
     <div class="profile">
       <img src="images/vijay.png" alt="angela-profile-img">
       <h2>Hello</h2>
@@ -35,7 +36,7 @@
          and web applications.</p>
     </div>
     <hr>
-    <div class="skills">
+    <div class="skills" id="skill">
       <h2>My Skills</h2>
       <div class="skill-row">
         <img class="code-img" src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="code-img">
@@ -46,18 +47,21 @@
       </div>
       
       <div class="skill-row">
-        <div class="col">
-          <h3>Frontend</h3>
-          <p>ReactJs, Jquery, ES6/ES5, Flutter</p>
+        <div class="skillcol"> 
+          <div class="col">
+            <h3>Frontend</h3>
+            <p>ReactJs, Jquery, ES6/ES5, Flutter</p>
+          </div>
+          <div class="col">
+            <h3>Backend</h3>
+            <p>NodeJS, Express, Django</p>
+          </div>
+          <div class="col">
+            <h3>DataBases</h3>
+            <p>MySql, MongoDB</p>
+          </div>
         </div>
-        <div class="col">
-          <h3>Backend</h3>
-          <p>NodeJS, Express, Django</p>
-        </div>
-        <div class="col">
-          <h3>DataBases</h3>
-          <p>MySql, MongoDB</p>
-        </div>
+        
       </div>
       <div class="skill-row">
         <h3>Hobbies</h3>
@@ -66,11 +70,11 @@
       </div>
     </div>
     <hr>
-    <div class="contact-me">
+    <div class="contact-me" id="contact">
       <h2>Get In Touch</h2>
       <h3>Only recruters.</h3>
       <p class="contact-message">You think my knowledge would help you then Press below button</p>
-      <a class="btn" href="ilove@hotwings.com">CONTACT ME</a>
+      <a class="btn" href="mailto:vijaychamantha@gmail.com" >CONTACT ME</a>
     </div>
   </div>
 

@@ -63,6 +63,7 @@ a:hover {
 }
 
 .skill-row {
+  
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -144,14 +145,19 @@ a:hover {
   text-decoration: none;
 }
 
+.skillcol{
+  display: flex;
+  justify-content: space-between;
+}
 .col{
   display: inline-block;
-  padding: 10px 10px 10px 10px;
-  border: 5px solid black;
+  
+  
 }
 
 .navbar{
   display: flex;
+  margin-right: 50%;
   justify-content: space-evenly;
   
   
